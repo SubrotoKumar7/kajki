@@ -1,9 +1,22 @@
 import { Outlet } from "react-router";
+import Container from "../components/Container";
 
 const Auth = () => {
     return (
         <div>
-            <Outlet></Outlet>
+            <Container>
+                <div className="flex h-screen relative items-center justify-center flex-col md:flex-row gap-10 p-5">
+                    <div className="flex-1 text-center mt-10 md:mt-0">
+                        <img src="/analytics.svg" className="w-1/2 md:w-full mx-auto" alt="analytics illustrations" />
+                        <h1 className="text-3xl mt-7 mb-3 font-bold">Organize your work, simplify your life.</h1>
+                        <p className="font-medium">Manage all your tasks in one place and say goodbye to missed deadlines.</p>
+                    </div>
+                    <div className="flex-1 w-full h-fit">
+                        <Outlet></Outlet>
+                    </div>
+                    <div className="absolute left-1/2 bottom-4 -translate-1/2 text-center">&copy; {new Date().getFullYear()} KajKi. All rights reserved</div>
+                </div>
+            </Container>
         </div>
     );
 };

@@ -2,7 +2,7 @@ import SocialAuth from "../components/SocialAuth";
 
 const Login = () => {
     return (
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center">
         <div className="grid grid-rows-12 grid-cols-12 gap-1 items-center p-5 md:w-200 md:h-150 shadow-2xl shadow-gray-400">
           {/* welcome message */}
           <div className="md:col-span-6 col-span-12 md:row-span-8 row-span-full">
