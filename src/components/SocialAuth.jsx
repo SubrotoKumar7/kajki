@@ -9,7 +9,7 @@ const SocialAuth = () => {
         {/* social auth */}
         <div className="mx-auto flex flex-col items-center">
             {/* Google */}
-            <button className="btn bg-white text-black border-[#e5e5e5] md:w-1/2 w-3/4 mb-5">
+            <button className="btn bg-white text-black border-[#e5e5e5] md:w-full w-3/4 mb-5">
             <svg
                 aria-label="Google logo"
                 width="16"
@@ -41,7 +41,7 @@ const SocialAuth = () => {
             </button>
 
             {/* Facebook */}
-            <button className="btn bg-[#1A77F2] text-white border-[#005fd8] md:w-1/2 w-3/4">
+            <button className="btn bg-[#1A77F2] text-white border-[#005fd8] md:w-full w-3/4">
             <svg
                 aria-label="Facebook logo"
                 width="16"
