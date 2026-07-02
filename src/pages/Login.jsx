@@ -3,7 +3,7 @@ import SocialAuth from "../components/SocialAuth";
 const Login = () => {
   return (
     <div className="md:w-100 w-full mx-auto">
-        <h1 className="text-3xl text-center font-bold mb-3">Login</h1>
+        <h1 className="text-2xl text-center font-bold mb-3">Login</h1>
         <fieldset className="fieldset">
           <label className="label">Email</label>
           <input
